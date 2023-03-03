@@ -1,0 +1,199 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: white;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  display: block;
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+
+  --Blue: hsl(248, 32%, 49%);
+  --Dark-Blue: hsl(249, 10%, 26%);
+  --Grayish-Blue: hsl(246, 25%, 77%);
+}
+
+.intro-and-form {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: var(--Red);
+  background-image: url(.././images/bg-intro-desktop.png);
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 110rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4.5rem;
+  padding: 0 3rem;
+}
+
+.bolden {
+  font-weight: 700;
+}
+.heading {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  line-height: 55px;
+}
+
+.description {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.trial-box {
+  background-color: var(--Blue);
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 4px rgb(0, 0, 0, 25%);
+  margin-bottom: 2.4rem;
+  letter-spacing: 0.27px;
+}
+
+.form {
+  background-color: white;
+  padding: 4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  box-shadow: 0 4px 4px rgb(0, 0, 0, 25%);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group input {
+  display: block;
+  width: 100%;
+  padding: 1.7rem 2rem;
+  border: 1px solid var(--Grayish-Blue);
+  border-radius: 0.5rem;
+}
+
+.input-group:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.btn {
+  margin-top: 2rem;
+}
+
+.terms {
+  margin-top: 1rem;
+}
+
+.input-group input::placeholder {
+  color: var(--Grayish-Blue);
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group i {
+  position: absolute;
+  display: inline-block;
+  color: red;
+  top: 50%;
+  right: 2rem;
+  transform: translate(-50%, -50%) scale(2);
+}
+.error {
+  color: var(--Red);
+
+  font-size: 1.1rem;
+  text-align: right;
+  font-style: italic;
+  transform: translateY(0.5rem);
+}
+
+.btn {
+  padding: 2.1rem 4rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--Green);
+
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: hsl(154, 59%, 71%);
+}
+
+.terms {
+  color: var(--Grayish-Blue);
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1;
+}
+
+.terms .bolden {
+  color: var(--Red);
+}

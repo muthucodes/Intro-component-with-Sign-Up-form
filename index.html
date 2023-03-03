@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/5e739ab900.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <section class="intro-and-form">
+      <div class="container">
+        <div class="left-box">
+          <h1 class="heading">Learn to code by watching others</h1>
+          <p class="description">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="right-box">
+          <div class="trial-box">
+            <p>
+              <span class="bolden">Try it free 7 days</span> then $20/mo.
+              thereafter
+            </p>
+          </div>
+
+          <!-- FORM -->
+          <form action="#" class="form" novalidate>
+            <div class="input-group">
+              <input type="text" placeholder="First Name" id="first-name" />
+            </div>
+
+            <div class="input-group">
+              <input type="text" placeholder="Last Name" id="last-name" />
+            </div>
+
+            <div class="input-group">
+              <input
+                type="email"
+                placeholder="Email Address"
+                spellcheck="false"
+                id="email"
+              />
+            </div>
+
+            <div class="input-group">
+              <input type="password" placeholder="Password" id="password" />
+            </div>
+
+            <button type="submit" class="btn">Claim your free trial</button>
+            <p class="terms">
+              By clicking the button, you are agreeing to our
+              <span class="bolden">Terms and Services</span>
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>

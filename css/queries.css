@@ -1,0 +1,61 @@
+@media (max-width: 62.5rem) {
+  .terms {
+    line-height: 21px;
+  }
+  .trial-box {
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 50rem) {
+  .container {
+    max-width: 32.7rem;
+    grid-template-columns: 1fr;
+    margin: 9rem auto;
+    padding: 0;
+  }
+
+  .heading {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 1.6rem;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .trial-box {
+    padding: 1.5rem 6rem;
+  }
+
+  .form {
+    padding: 2.5rem;
+  }
+
+  .input-group input {
+    padding: 1.5rem 2rem;
+  }
+
+  .input-group:not(:first-child) {
+    margin-top: 1.6rem;
+  }
+
+  .btn {
+    margin-top: 1.6rem;
+  }
+
+  .terms {
+    margin-top: 0.8rem;
+  }
+
+  .input-group input::placeholder {
+    color: hsl(249, 10%, 26%);
+  }
+
+  .btn {
+    padding: 2rem 4rem;
+  }
+}
