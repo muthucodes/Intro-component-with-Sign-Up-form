@@ -52,9 +52,10 @@ const validateEmail = function (element) {
 
 const resetErrors = function () {
   document.querySelectorAll(".error").forEach((e) => (e.innerText = ""));
-  document
-    .querySelectorAll("input")
-    .forEach((e) => (e.style.border = "1px solid hsl(246, 25%, 77%)"));
+  document.querySelectorAll("input").forEach((e) => {
+    e.style.border = "1px solid hsl(246, 25%, 77%)";
+    e.style.color = "black";
+  });
   document.querySelectorAll(".error-icon").forEach((e) => e.remove());
 };
 
