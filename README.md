@@ -29,4 +29,4 @@ Users should be able to:
 
 ### Link to live site
 
-- Live Site URL: [Add live site URL here](https://intro-section-with-sign-up-form-muthu.netlify.app/)
+- Live Site URL: [Intro section with sign up form](https://intro-section-with-sign-up-form-muthu.netlify.app/)
