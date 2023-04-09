@@ -27,7 +27,6 @@ Users should be able to:
 ![](./screenshots/active-state-ss.png)
 ![](./screenshots/mobile-ss.png)
 
-### Links
+### Link to live site
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://intro-section-with-sign-up-form-muthu.netlify.app/)
